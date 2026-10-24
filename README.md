@@ -1,41 +1,50 @@
-# Abhishek Ahirwar — Personal Portfolio
+# Abhishek Ahirwar | Personal Portfolio
 
-Welcome to my personal portfolio repository!
+Computer Science Engineering Student | Aspiring Software Developer
 
-## About Me
-I am a CSE engineering student interested in programming, web development, and learning new technologies. This portfolio showcases my skills, projects, and learning journey.
+## Overview
 
-## Portfolio Features
-- About Me section
-- Technical Skills
-- Projects and ongoing work
-- Career Goals
-- Contact Information
-- Resume Download option
+This repository contains the source code for my personal portfolio website. It highlights my technical skills, projects, career goals, and professional background.
 
-## Technologies Used
+The portfolio is designed to provide a clear overview of my work, learning journey, and interests in software development and modern web technologies.
+
+## Live Website
+
+**[Visit My Portfolio](PASTE_YOUR_LIVE_WEBSITE_LINK_HERE)**
+
+## Technologies
+
 - React
 - TypeScript
-- HTML
-- CSS
 - Vite
+- HTML5
+- CSS3
+
+## Features
+
+- Professional introduction and profile
+- Technical skills overview
+- Project showcase
+- Career goals
+- Contact information
+- Resume download
+- Responsive design for desktop and mobile devices
 
 ## Featured Project
-**URL Shortener — In Progress**
 
-A web application designed to convert long URLs into shorter, easy-to-share links.
+### URL Shortener — In Progress
 
-## Live Portfolio
-Add your published portfolio website link here: `PASTE_YOUR_LIVE_PORTFOLIO_URL`
+A web application currently in development that aims to convert long URLs into short, shareable links.
 
-## GitHub Repository
-You are viewing the source code repository of my personal portfolio.
+## Project Structure
+
+The project is built using React, TypeScript, and Vite, with a component-based structure for organizing the user interface.
 
 ## Contact
-You can connect with me through my LinkedIn profile.
 
-LinkedIn: `PASTE_YOUR_LINKEDIN_URL`
+- **LinkedIn:** [Connect with me](https://www.linkedin.com/in/abhishek-ahirwar-28862830b/)
+- **GitHub:** [View my repositories](https://github.com/ahirwarabhishek2756-hash)
 
----
+## License
 
-Thank you for visiting my portfolio!
+This project is maintained as a personal portfolio and learning project.
