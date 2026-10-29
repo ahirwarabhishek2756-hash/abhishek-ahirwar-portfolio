@@ -18,6 +18,7 @@ interface Project {
   status: string;
   tech: string[];
   githubUrl: string | null;
+  liveUrl?: string;
 }
 
 const projects: Project[] = [
@@ -56,6 +57,7 @@ const projects: Project[] = [
     status: 'Learning Project',
     tech: ['Python', 'Random Module'],
     githubUrl: null,
+    liveUrl: 'https://anime-play-arena-jjww.bolt.host/',
   },
   {
     title: 'HTML and CSS Login Form',
@@ -127,7 +129,17 @@ export default function Projects() {
                   ))}
                 </div>
 
-                {project.githubUrl ? (
+                {project.liveUrl ? (
+                  <a
+                    href={project.liveUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center gap-2 w-full px-5 py-2.5 rounded-xl bg-gradient-to-r from-blue-600 to-sky-500 text-white font-semibold text-sm transition-all duration-300 hover:shadow-[0_0_24px_rgba(56,189,248,0.35)] hover:scale-[1.02] active:scale-95"
+                  >
+                    Live Demo
+                    <ArrowUpRight className="w-3.5 h-3.5" />
+                  </a>
+                ) : project.githubUrl ? (
                   <a
                     href={project.githubUrl}
                     target="_blank"
